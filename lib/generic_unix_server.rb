@@ -1,7 +1,8 @@
 require 'socket'
-require_relative 'daemon'
+require 'daemon'
 
 class GenericUnixServer
+  VERSION="0.1"
   MAX_CMD_LEN=1024
   class Error < StandardError; end
   class CmdToLong < StandardError; end

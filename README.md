@@ -1,9 +1,9 @@
-generic_unix_daemon  
-======
+generic_unix_server
+===================
 
-generic_unix_daemon is a library to build trivial socket command server in ruby.
+generic_unix_server is a library to build trivial socket command server in ruby.
 
-The source code is located at : <http://github.com/hanklords/generic_unix_daemon>
+The source code is located at : <http://github.com/hanklords/generic_unix_server>
 
 Usage
 -----

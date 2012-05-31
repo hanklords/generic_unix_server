@@ -1,12 +1,10 @@
 require 'socket'
-require 'daemon'
 
 class GenericUnixServer
   VERSION="0.1"
   MAX_CMD_LEN=1024
   class Error < StandardError; end
   class CmdToLong < StandardError; end
-  include Daemon
 
   def self.def_cmd(cmd, &blk); define_method("process_" + cmd.to_s, &blk) end
   

@@ -8,6 +8,5 @@ Gem::Specification.new do |s|
   s.author = "Maël Clérambault"
   s.email =  "mael@clerambault.fr"
   s.files = %w(lib/generic_unix_server.rb LICENSE README.md)
-  s.add_dependency("daemon")
   s.version = GenericUnixServer::VERSION
 end
